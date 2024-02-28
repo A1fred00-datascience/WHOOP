@@ -13,16 +13,23 @@ The analysis is based on four primary datasets extracted from the WHOOP platform
 - **Physiological Cycles:** Data on heart rate variability, resting heart rate, and more.
 
 ## Project Objectives
-- Integrate data from various sources into a cohesive analysis framework.
-- Conduct exploratory data analysis to identify key health and wellness trends.
+- Integrate data from various sources into a unique dataframe.
+- Conduct exploratory data analysis to identify key health and wellness trend.
 - Develop machine learning models to predict recovery scores based on lifestyle factors.
-- Offer insights and recommendations for wellness improvement.
+- Offer insights and recommendations for my own wellness improvement.
+- Trespass the data into a Tableau dashboard in order to have an interactive board with insights
 
 ## Methodology
-The project follows a structured approach, starting with data preprocessing and integration, followed by exploratory data analysis to uncover underlying patterns. Feature engineering identifies relevant predictors for machine learning models, which are then used to forecast recovery scores. The analysis concludes with an evaluation of feature importance to highlight the most influential factors on recovery.
+The project follows a structured approach, starting with data preprocessing and integration, followed by exploratory data analysis to uncover underlying patterns. Feature engineering identifies relevant predictors, which are then used to forecast recovery scores. The analysis concludes with an evaluation of feature importance to highlight the most influential factors on recovery.
+
+### Key Insights
+
+- **Sleep Patterns:** I explored how sleep quality correlates with recovery scores, identifying trends that suggest better sleep equals better recovery.
+- **Workout Impact:** Analyzing workout intensity against recovery scores highlighted the fine balance between training hard and adequate rest.
+- **Physiological Responses:** I examined how daily stressors and activities influence physiological markers like heart rate variability (HRV) and resting heart rate (RHR).
 
 ## Results
-The analysis provides a multi-faceted view of personal health, linking daily activities and physiological metrics to recovery outcomes. Machine learning models further enable the prediction of wellness scores, offering a scientific basis for personal health optimization.
+The analysis provides a multi-faceted view of my personal health, linking daily activities (Walking, lifting weights, gymnastics) and physiological metrics (Exposure to sunlight, hydration levels, REM sleep) to analyze recovery outcomes and pose recommendations on the mos important factors to take into account when trying to obtain a "Green" recovery.
 
 ## Technologies Used
 - **Pandas & Numpy:** For data manipulation and analysis.
