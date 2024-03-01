@@ -42,6 +42,8 @@ To run this project:
 2. Clone the repository to your local environment.
 3. Execute `python WHOOP_Project.py` in your terminal.
 
+## I am working on a Tableau dashboard at the moment to showcase my insights 
+
 ## Future Directions
 Future enhancements may include integrating more diverse data sources, exploring additional predictive modeling techniques, and developing interactive dashboards for real-time health monitoring and insights.
 
