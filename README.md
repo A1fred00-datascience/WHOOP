@@ -23,7 +23,6 @@ The analysis is based on four primary datasets extracted from the WHOOP platform
 The project follows a structured approach, starting with data preprocessing and integration, followed by exploratory data analysis to uncover underlying patterns. Feature engineering identifies relevant predictors, which are then used to forecast recovery scores. The analysis concludes with an evaluation of feature importance to highlight the most influential factors on recovery.
 
 ### Key Insights
-
 - **Sleep Patterns:** I explored how sleep quality correlates with recovery scores, identifying trends that suggest better sleep equals better recovery.
 - **Workout Impact:** Analyzing workout intensity against recovery scores highlighted the fine balance between training hard and adequate rest.
 - **Physiological Responses:** I examined how daily stressors and activities influence physiological markers like heart rate variability (HRV) and resting heart rate (RHR).
