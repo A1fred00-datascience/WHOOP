@@ -6,13 +6,13 @@ This project leverages data collected from a WHOOP device to perform a comprehen
 ## Data Description
 The analysis is based on four primary datasets extracted from the WHOOP platform, covering journal entries, sleep analysis, workout logs, and physiological cycles. These datasets include metrics crucial for understanding overall wellness, such as sleep performance, recovery scores, and activity strain.
 
-### Data Files:
+### Data Files
 - **Journal Entries:** Insights into daily habits and subjective wellness assessments.
 - **Sleep:** Metrics on sleep quality, disturbances, and recovery.
 - **Workouts:** Details on exercise types, duration, and intensity.
 - **Physiological Cycles:** Data on heart rate variability, resting heart rate, and more.
 
-## Project Objectives
+## Project Objectives and Steps
 - Integrate data from various sources into a unique dataframe.
 - Conduct exploratory data analysis to identify key health and wellness trend.
 - Develop machine learning models to predict recovery scores based on lifestyle factors.
