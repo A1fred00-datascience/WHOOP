@@ -1,4 +1,4 @@
-#%% Importing necessary libraries
+#%% Importing necessary libraries and packages for Machinw Learning 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +13,7 @@ from sklearn.model_selection import GridSearchCV
 
 
 
-#%% Reading csv files and transforming them into dataframes
+#%% Reading csv files and transforming them into dataframes -> Later on they will be managed into one dataframe
 journal_entries = pd.read_csv('journal_entries.csv')
 sleep_data = pd.read_csv('sleeps.csv')
 workouts_data = pd.read_csv('workouts.csv')
@@ -27,12 +27,12 @@ merged_df = pd.merge(merged_df, physiological_cycles, on=['Cycle start time', 'C
 #%% After merging, check for any duplicated columns and decide whether to keep, rename, or drop them
 print(merged_df.columns)  # This will help you identify duplicated columns)
 
-# Data Preprocessing
+# Data Preprocessing -> Primary kets are cycle times (Start and End)
 #%% Converting datetime columns
 merged_df['Cycle start time'] = pd.to_datetime(merged_df['Cycle start time'])
 merged_df['Cycle end time'] = pd.to_datetime(merged_df['Cycle end time'])
 
-# Handling missing values
+# Handling missing values by utilizing the mean of all the available values
 #%% Identify numeric columns in the DataFrame
 numeric_cols = merged_df.select_dtypes(include=np.number).columns
 
@@ -42,7 +42,7 @@ medians = merged_df[numeric_cols].median()
 #%% Fill missing values in numeric columns with their respective medians
 merged_df[numeric_cols] = merged_df[numeric_cols].fillna(medians)
 
-# EDA and Visualization
+# EDA and Visualization -> targeting the metric: "Recovery Score"
 #%% Distribution of 'Recovery Score'
 plt.figure(figsize=(10, 6))
 sns.histplot(merged_df['Recovery score %'], kde=True, bins=30)
