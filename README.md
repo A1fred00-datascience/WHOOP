@@ -8,8 +8,8 @@ The analysis is based on four primary datasets extracted from the WHOOP platform
 
 ### Data Files
 - **Journal Entries:** Insights into daily habits and subjective wellness assessments.
-- **Sleep:** Metrics on sleep quality, disturbances, and recovery.
-- **Workouts:** Details on exercise types, duration, and intensity.
+- **Sleep: Metrics on sleep quality, disturbances, and recovery.
+- **Workouts: Details on exercise types, duration, and intensity.
 - **Physiological Cycles:** Data on heart rate variability, resting heart rate, and more.
 
 ## Project Objectives and Steps
