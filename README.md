@@ -19,6 +19,7 @@ The analysis is based on four primary datasets extracted from the WHOOP platform
 - Offer insights and recommendations for my own wellness improvement.
 - Trespass the data into a Tableau dashboard in order to have an interactive board with insights
 
+
 ## Methodology
 The project follows a structured approach, starting with data preprocessing and integration, followed by exploratory data analysis to uncover underlying patterns. Feature engineering identifies relevant predictors, which are then used to forecast recovery scores. The analysis concludes with an evaluation of feature importance to highlight the most influential factors on recovery.
 
