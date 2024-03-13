@@ -1,7 +1,7 @@
 # WHOOP Personal Health Analysis Project
 
 ## Overview
-This project leverages data collected from a WHOOP device to perform a comprehensive analysis of personal health and wellness trends. By integrating and analyzing data on sleep patterns, workouts, journal entries, and physiological responses, the project aims to provide actionable insights into improving personal health outcomes.
+This project leverages data collected from a WHOOP device to perform a comprehensive analysis of personal health and wellness trends. By integrating and analyzing data on sleep patterns, workouts, journal entries, and physiological responses, the project aims to provide actionable insights into improving personal health outcomes in the next couple of months.
 
 ## Data Description
 The analysis is based on four primary datasets extracted from the WHOOP platform, covering journal entries, sleep analysis, workout logs, and physiological cycles. These datasets include metrics crucial for understanding overall wellness, such as sleep performance, recovery scores, and activity strain.
